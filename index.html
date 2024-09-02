@@ -44,13 +44,15 @@
             </div>
             <div class="mb-6">
                 <h3 class="font-semibold mb-1">Main projects I worked in</h3>
-                <table class="lg:text-lg m-2 ml-0">
+                <table class="lg:text-lg m-2 ml-0 desktop-table">
                     <thead>
                         <tr>
                             <th>Site</th>
                             <th>Client</th>
                             <th>Description</th>
                         </tr>
+                    </thead>
+                    <tbody>
                         <tr>
                             <td><a href="https://www.euroconference.it/" target="_blank">Euroconference</a></td>
                             <td class="client"><a href="https://www.teamsystem.com/" target="_blank">TeamSystem</a></td>
@@ -75,7 +77,31 @@
                                 Enhanced the login page and car registration process, resolving various bugs. I worked with Angular.
                             </td>
                         </tr>
-                    </thead>
+                    </tbody>
+                </table>
+                <table class="mobile-table">
+                    <tr>
+                        <th>Site</th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.euroconference.it/" target="_blank">Euroconference</a></td>
+                    </tr>
+                    <tr>
+                        <th>Client</th>
+                    </tr>
+                    <tr>
+                        <td class="client"><a href="https://www.teamsystem.com/" target="_blank">TeamSystem</a></td>
+                    </tr>
+                    <tr>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Developed web services and APIs, maintained and optimized a SQL Server 
+                            database, and created new database tables. Refactored and enhanced the 
+                            reserved area, leading to improved performance and user experience.
+                        </td>
+                    </tr>
                 </table>
             </div>
             <div class="mb-6">
@@ -126,11 +152,18 @@
     .client {
         text-align: center;
     }
+    .mobile-table {
+        display: none;
+    }
     @media only screen and (max-width: 480px) {
-            table {
-                display: block;
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch; /* Enables smooth scrolling on iOS */
+        .client {
+        text-align: start;
+        }
+        .mobile-table {
+            display: block;
+        }
+        .desktop-table {
+            display: none;
         }
     }
 </style>
