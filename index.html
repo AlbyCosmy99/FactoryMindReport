@@ -163,7 +163,7 @@
                     <li>This experience confirmed that software development is what I truly want to pursue.</li>
                 </ul>
             </div>
-            <div class="mb-6">
+            <div class="mb-6 flex justify-center items-center flex-col">
                 <h3 class="font-semibold mb-1">Technologies used</h3>
                 <div>
                     <div class="flex gap-2 align-center">
@@ -178,9 +178,16 @@
             </div>
         </main>
     </div>
-    <footer>
+    <footer class="flex flex-col justify-center items-center gap-2 mb-5">
+        <div class="flex gap-4">
+            <a href="https://github.com/albycosmy99" target="_blank"><button>Github</button></a>
+            <a href="https://www.linkedin.com/in/andrei-albudev/" target="_blank"><button>LinkedIn</button></a>
+        </div>
         <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by juicy_fish - Flaticon</a>
-        <a target="_blank" href="https://icons8.com/icon/71257/angularjs">angular</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <div>
+            <a target="_blank" href="https://icons8.com/icon/71257/angularjs">angular</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+        <p>© 2024 Albu Cosmin Andrei. All rights reserved.</p>
     </footer>
 </body>
 </html>
@@ -188,7 +195,8 @@
 <style>
     body {
         background: rgb(223,75,20);
-    background: linear-gradient(180deg, rgba(223,75,20,0.6) 0%, rgba(62,41,118,0.6) 100%);
+        background: linear-gradient(180deg, rgba(223,75,20,0.6) 0%, rgba(62,41,118,0.6) 100%);
+        color: white;
     }
     table {
         width: 100%;
@@ -220,6 +228,13 @@
     .mobile-table {
         display: none;
     }
+    button {
+        color: white;
+        background-color: #DF4B14;
+        border: 2px solid black;
+        padding: 5px;
+        border-radius: 10px;
+    }
     @media only screen and (max-width: 480px) {
         .client {
         text-align: start;
@@ -231,4 +246,5 @@
             display: none;
         }
     }
+
 </style>
