@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+    <title>Report</title>
+</head>
+<body class="mx-6 mt-4 mb-3">
+    <div class="min-h-screen">
+        <header class="mb-7">
+            <div class="flex justify-between mb-2">
+                <div>
+                    <h2 class="font-extrabold text-3xl mb-1">Software Developer</h2>
+                    <a href="https://www.factorymind.com/" target="_blank" class="w-fit inline-block"><p class="font-bold text-xl"><span style="color: #3E2976;">Factory</span><span style="color: #DF4B14;">Mind</span></p></a>
+                </div>
+                <image class="w-20 h-20" src="assets/working-at-home.png"/>
+            </div>
+            <div class="flex gap-2">
+                <image class="w-6 h-6" src="assets/calendar.png"/>
+                <p>October 2023 - March 2024</p>
+            </div>
+        </header>
+        <hr />
+        <main class="mt-3">
+            <div class="mb-6">
+                <h3 class="font-semibold mb-1">Description</h3>
+                <p class="lg:w-5/12">
+                    As a Full-stack Software Developer at FactoryMind, I collaborated with a team 
+                    to develop and maintain large-scale websites, handling both front-end and back-end 
+                    development, including SQL database management.
+                </p>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-1">Main projects I worked in</h3>
+                <table class="lg:text-lg m-2 ml-0">
+                    <thead>
+                        <tr>
+                            <th>Site</th>
+                            <th>Client</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.euroconference.it/" target="_blank">Euroconference</a></td>
+                            <td class="client"><a href="https://www.teamsystem.com/" target="_blank">TeamSystem</a></td>
+                            <td>
+                                Developed web services and APIs, maintained and optimized a SQL Server 
+                                database, and created new database tables. Refactored and enhanced the 
+                                reserved area, leading to improved performance and user experience.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.ecnews.it/" target="_blank">Euroconference News</a></td>
+                            <td class="client"><a href="https://www.teamsystem.com/" target="_blank">TeamSystem</a></td>
+                            <td>
+                                On the frontend, I worked with Vue.js to enhance user experience and resolve bugs. 
+                                On the backend, I utilized <a href="https://wordpress.com/">WordPress</a> and <a href="https://www.php.net/">PHP</a> to build and maintain functionality.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.barchetti.it/" target="_blank">Gruppo Barchetti</a></td>
+                            <td class="client"><a href="https://www.barchetti.it/" target="_blank">Barchetti</a></td>
+                            <td>
+                                Enhanced the login page and car registration process, resolving various bugs. I worked with Angular.
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="mb-6">
+                <h3 class="font-semibold mb-1">Key Achievements</h3>
+                <ul class="list-disc lg:w-5/12 pl-5">
+                    <li>
+                        As my first work experience, it was a valuable opportunity to begin my journey into web development.
+                    </li>
+                    <li>Enhanced my teamwork skills.</li>
+                    <li>Acquired a solid understanding of software pipelines, from development through to production.</li>
+                    <li>Acquired knowledge in Server-Side Rendering through cshtml development.</li>
+                    <li>This experience confirmed that software development is what I truly want to pursue.</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <a href="https://www.flaticon.com/free-icons/computer" title="computer icons">Computer icons created by juicy_fish - Flaticon</a>
+    </footer>
+</body>
+</html>
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 25px 0;
+        text-align: left;
+    }
+    th, td {
+        padding: 12px 15px;
+        border: 1px solid black;
+    }
+    th {
+        background-color: #DF4B14;
+        color: white;
+    }
+    tr {
+        background-color: #f9f9f9;
+    }
+    a {
+        color: #3E2976;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .client {
+        text-align: center;
+    }
+</style>
