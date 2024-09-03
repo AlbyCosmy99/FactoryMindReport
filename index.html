@@ -18,21 +18,21 @@
     <title>Report</title>
 </head>
 <body class="mx-6 mt-8 mb-3">
-    <div class="min-h-screen safe-area-bg">
+    <div class="min-h-screen">
         <header class="mb-7">
             <div class="flex justify-between mb-2">
                 <div>
                     <h2 class="font-extrabold text-4xl mb-1">Software Developer</h2>
                     <a href="https://www.factorymind.com/" target="_blank" class="w-fit inline-block"><p class="font-bold text-xl"><span style="color: #3E2976;">Factory</span><span style="color: #DF4B14;">Mind</span></p></a>
                 </div>
-                <img class="w-20 h-20" src="assets/working-at-home.png"/>
+                <image class="w-20 h-20" src="assets/working-at-home.png"/>
             </div>
             <div class="flex gap-2">
-                <img class="w-6 h-6" src="assets/calendar.png"/>
+                <image class="w-6 h-6" src="assets/calendar.png"/>
                 <p>October 2022 - March 2024</p>
             </div>
             <div class="mt-4">
-                <img class="h-32 rounded-xl border-2" src="assets/andreialbu.jpeg"/>
+                <image class="h-32 rounded-xl border-2" src="assets/andreialbu.jpeg"/>
                 <p>Albu Cosmin Andrei</p>
             </div>
         </header>
@@ -171,12 +171,12 @@
                 <h3 class="font-semibold mb-1 color-black">Technologies used</h3>
                 <div>
                     <div class="flex gap-2 align-center">
-                        <a class="self-center" href="https://vuejs.org/" target="_blank"><img src="assets/vuejs-icon.svg"/></a>
-                        <a class="self-center" href="https://angular.dev/" target="_blank"><img class="w-15 h-15" src="assets/icons8-angular.svg"/></a>
-                        <a class="self-center" href="https://dotnet.microsoft.com/"><img src="assets/netframework-1.svg"/></a>
-                        <a class="self-center" href="https://www.microsoft.com/it-it/sql-server/sql-server-2022" target="_blank"><img src="assets/microsoft-sql-server-logo-svgrepo-com.svg"/></a>
-                        <a class="self-center" href="https://www.docker.com/" target="_blank"><img src="assets/docker-svgrepo-com.svg"/></a>
-                        <a class="self-center" href="https://git-scm.com/" target="_blank"><img src="assets/git-icon-logo-svgrepo-com.svg"/></a>
+                        <a class="self-center" href="https://vuejs.org/" target="_blank"><image src="assets/vuejs-icon.svg"/></a>
+                        <a class="self-center" href="https://angular.dev/" target="_blank"><image class="w-15 h-15" src="assets/icons8-angular.svg"/></a>
+                        <a class="self-center" href="https://dotnet.microsoft.com/"><image src="assets/netframework-1.svg"/></a>
+                        <a class="self-center" href="https://www.microsoft.com/it-it/sql-server/sql-server-2022" target="_blank"><image src="assets/microsoft-sql-server-logo-svgrepo-com.svg"/></a>
+                        <a class="self-center" href="https://www.docker.com/" target="_blank"><image src="assets/docker-svgrepo-com.svg"/></a>
+                        <a class="self-center" href="https://git-scm.com/" target="_blank"><image src="assets/git-icon-logo-svgrepo-com.svg"/></a>
                     </div>
                 </div>
             </div>
@@ -201,18 +201,7 @@
         background: rgb(223,75,20);
         background: linear-gradient(180deg, rgba(223,75,20,0.6) 0%, rgba(62,41,118,0.6) 100%);
         color: white;
-        padding-top: env(safe-area-inset-top);
-        padding-right: env(safe-area-inset-right);
-        padding-bottom: env(safe-area-inset-bottom);
-        padding-left: env(safe-area-inset-left);
-        box-sizing: border-box;
     }
-
-    .safe-area-bg {
-        background: rgb(223,75,20);
-        background: linear-gradient(180deg, rgba(223,75,20,0.6) 0%, rgba(62,41,118,0.6) 100%);
-    }
-
     table {
         width: 100%;
         border-collapse: collapse;
@@ -220,41 +209,33 @@
         text-align: left;
         color: black;
     }
-
     th, td {
         padding: 12px 15px;
         border: 1px solid black;
     }
-
     th {
         background-color: #DF4B14;
         color: white;
     }
-
     tr {
         background-color: #f9f9f9;
     }
-
     a {
+        color: ;
         text-decoration: none;
     }
-
     a:hover {
         text-decoration: underline;
     }
-
     .client {
         text-align: center;
     }
-
     .mobile-table {
         display: none;
     }
-
     .color-black {
         color: black;
     }
-
     button {
         color: white;
         background-color: #DF4B14;
@@ -262,18 +243,16 @@
         padding: 5px;
         border-radius: 10px;
     }
-
     @media only screen and (max-width: 480px) {
         .client {
         text-align: start;
         }
-
         .mobile-table {
             display: block;
         }
-
         .desktop-table {
             display: none;
         }
     }
+
 </style>
